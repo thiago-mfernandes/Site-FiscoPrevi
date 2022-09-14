@@ -36,7 +36,6 @@ export default function FixedBar() {
 
       <div className='flex w-1/5'>
         <ul className='flex flex-row items-center justify-between w-full'>
-          {/* map */}
           {socialMediaData.map((item, index) => (
             <li 
               key={index} 

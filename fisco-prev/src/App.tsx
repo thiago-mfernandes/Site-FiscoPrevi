@@ -1,69 +1,11 @@
-
+import Header from 'components/header';
+import './index.css';
 
 function App() {
   return (
-    <main>
+    <main className='font-sans'>
 
-      {/* Inicio do Header*/}
-      <section> {/* header -->COMPONENTE<-- */}
-
-        {/* INICIO COMPONENTE BARRA VERDE */}
-        <div>{/* faixa verde -->COMPONENTE<-- */}
-          <div> {/* -->COMPONENTE<-- icone + div com horario de trabalho e dias  */}
-            <img src="" alt="icone relogio" />
-            <span>Segunda a Sexta 09:30-17:00</span>
-          </div>
-          <div> {/* -->COMPONENTE<-- icone + div com numero telefone */}
-            <img src="" alt="icone telefone" />
-            <span>Segunda a Sexta 09:30-17:00</span>
-          </div>  
-          <div>{/* box redes sociais header */}
-            <img src="" alt="icone facebook" />
-            <img src="" alt="icone instagram" />
-            <img src="" alt="icone twitter" />
-            <img src="" alt="icone whatsapp" />
-          </div>
-        </div>
-        {/* FIM COMPONENTE BARRA VERDE */}
-
-
-        {/* INICIO COMPONENTE NAVBAR */}
-        <div>
-          <img src="" alt="icone fiscoprev" />
-          <nav>
-            <ul>
-              <li><a href="">link para Home</a></li>
-              <li><a href="">link para Quem Somos</a></li>
-              <li><a href="">link para Servicos</a></li>
-              <li><a href="">link para Contato</a></li>
-            </ul>
-          </nav>
-        </div>
-        {/* FIM COMPONENTE NAVBAR */}
-
-
-        {/* INICIO COMPONENTE LANDING */}
-        <div> {/* essa div recebe uma img de background */}
-          <h2>we have a solid background</h2>
-          <h1>financial analisys and consulting</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deleniti tempore fugiat voluptas quia id quo dolor eos quas reiciendis tenetur, voluptate maxime ex aliquid ut esse perferendis quisquam rem!</p>
-        </div>
-        {/* FIM COMPONENTE LANDING */}
-
-
-        {/* INICIO COMPONENTE CALL TO ACTION */}
-        <div> {/* div verde */}
-          <div> {/* div com o subtitulo e content */}
-            <h3>request a call backk right now?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <button>Contact Us</button>
-        </div>
-        {/* FIM COMPONENTE CALL TO ACTION */}
-
-
-      </section>
-      {/* fim do Header*/}
+      <Header />
 
       {/* Inicio do Servicos*/}
       <section> {/* servicos */}

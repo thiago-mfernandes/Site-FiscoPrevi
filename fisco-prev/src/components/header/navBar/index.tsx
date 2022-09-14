@@ -1,12 +1,11 @@
 import data from 'data/nav.json';
 import { Item } from 'types';
 
-
 export default function NavBar() {
   return (
-    <nav className='px-16 py-4 bg-gray-600 flex items-center justify-between w-full'>
+    <nav className='px-16 py-4 flex items-center justify-between w-full absolute '>
       <a href="#">
-        <h2 className='uppercase'>FiscoPrev</h2>
+        <h2 className='uppercase text-white text-3xl'>FiscoPrev</h2>
       </a>
       <div className='w-1/2'>
         <ul className='flex flex-row w-full justify-end'>

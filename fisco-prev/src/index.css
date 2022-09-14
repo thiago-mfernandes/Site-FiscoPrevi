@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .span {
+    @apply text-azulPrimario font-semibold text-2xl uppercase w-full;
+  }
+
+  .title {
+    @apply text-white font-bold text-5xl uppercase w-full;
+  }
+
+  .content {
+    @apply text-white text-base leading-8 w-full ;
+  }
+}

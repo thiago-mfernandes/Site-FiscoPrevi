@@ -13,6 +13,7 @@ module.exports = {
         azulTerciario: '#074c8a',
         branco: '#fff',
         brancoBorda: 'rgba(250,250,250,0.3)',
+        cinzaBg: '#f7f7f7',
       },  
 
       fontFamily: {

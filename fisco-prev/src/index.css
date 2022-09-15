@@ -14,4 +14,8 @@
   .content {
     @apply text-white leading-8 w-full text-lg;
   }
+
+  .button {
+    @apply bg-white w-full h-10 border-none rounded-lg text-azulPrimario shadow-md hover:shadow-2xl transition-all ease-in-out delay-200;
+  }
 }

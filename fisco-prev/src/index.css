@@ -4,14 +4,14 @@
 
 @layer components {
   .span {
-    @apply text-azulPrimario font-semibold text-2xl uppercase w-full;
+    @apply text-azulPrimario font-semibold text-sm uppercase w-full;
   }
 
   .title {
-    @apply text-white font-bold text-5xl uppercase w-full;
+    @apply text-white font-bold text-2xl uppercase w-full my-6;
   }
 
   .content {
-    @apply text-white text-base leading-8 w-full ;
+    @apply text-white leading-8 w-full text-lg;
   }
 }

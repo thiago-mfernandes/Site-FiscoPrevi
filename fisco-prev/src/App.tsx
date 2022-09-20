@@ -1,5 +1,6 @@
 import Header from 'components/header';
 import './index.css';
+import Servicos from './components/servicos';
 
 function App() {
   return (
@@ -7,28 +8,7 @@ function App() {
 
       <Header />
 
-      {/* Inicio do Servicos*/}
-      <section> {/* servicos */}
-        <h2>financial services</h2>
-        <p>ALIQUAM ID URNA IMPERDIET LIBERO MOLLIS HENDRERIT</p>
-
-        {/* cardServico -->COMPONENTE<-- */}
-        <div>
-          <img src="" alt="icone" />
-          <h2>titulo card servicos</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequuntur praesentium voluptatum voluptate. Quod cupiditate alias repellat aspernatur nisi! Quam voluptate error veritatis deleniti dolorum quasi quis, odit eligendi. Tempora?</p>
-        </div>
-
-        {/* informacoes com paralaxe -->COMPONENTE<-- */}
-        <div>
-          <h3>subtitule</h3>
-          <h2>Our solutions for your
-            <span>business growth</span>
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique a sunt assumenda quam laboriosam magni sint modi alias optio iusto quaerat culpa ducimus, tenetur nisi eaque soluta placeat, saepe reiciendis?</p>
-        </div>
-      </section>
-      {/* fim do Servicos*/}
+      <Servicos />
 
 
 

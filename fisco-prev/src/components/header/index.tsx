@@ -5,7 +5,7 @@ import NavBar from './navBar';
 
 export default function Header() {
   return (    
-    <section className='bg-blue'> {/* header -->COMPONENTE<-- teste*/}
+    <section className='bg-blue'>
       <FixedBar />
       <NavBar />
       <Landing />

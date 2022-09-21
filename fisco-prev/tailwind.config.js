@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}',
     './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
@@ -26,6 +26,7 @@ module.exports = {
 
       backgroundImage: {
         banner: 'url("../public/slide_01.jpg")',
+        parallaxe: 'url("../public/slide_01.jpg")',
       },
     },
   },

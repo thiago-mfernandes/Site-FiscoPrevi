@@ -1,16 +1,16 @@
 import Header from 'components/header';
 import './index.css';
 import Servicos from './components/servicos';
+import Paralaxe from 'components/Paralaxe';
+
 
 function App() {
   return (
     <main className='font-sans'>
 
       <Header />
-
-      <Servicos />
-
-
+      <Servicos /> 
+      <Paralaxe />    
 
       {/* Inicio do quem somos*/}
       <section> {/* quem somos */}

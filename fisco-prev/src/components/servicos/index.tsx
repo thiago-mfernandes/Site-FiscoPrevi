@@ -17,18 +17,8 @@ export default function Servicos() {
               content={item.content}              
             />
           ))
-        }      
-
-        {/* informacoes com paralaxe -->COMPONENTE<-- */}
-        <div>
-          <h3>subtitule</h3>
-          <h2>Our solutions for your
-            <span>business growth</span>
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique a sunt assumenda quam laboriosam magni sint modi alias optio iusto quaerat culpa ducimus, tenetur nisi eaque soluta placeat, saepe reiciendis?</p>
-        </div>
+        }     
       </section>
-      {/* fim do Servicos*/}
     </>
   );
 }

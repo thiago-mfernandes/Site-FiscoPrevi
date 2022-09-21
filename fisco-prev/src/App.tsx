@@ -1,7 +1,8 @@
-import Header from 'components/header';
+import Header from 'components/Header';
 import './index.css';
 import Servicos from './components/servicos';
 import Paralaxe from 'components/Paralaxe';
+import QuemSomos from 'components/QuemSomos';
 
 
 function App() {
@@ -10,18 +11,12 @@ function App() {
 
       <Header />
       <Servicos /> 
-      <Paralaxe />    
+      <Paralaxe /> 
+      <QuemSomos />   
 
       {/* Inicio do quem somos*/}
       <section> {/* quem somos */}
-        <div>
-          <img src="" alt="foto quem somos" />
-          <h3>subtitle</h3>
-          <h2>get to know about
-            <span>our company</span>
-          </h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda aliquam rerum porro recusandae perferendis pariatur optio officia, dolore in, iure autem, at omnis? Officiis quibusdam reiciendis perspiciatis assumenda aperiam.</p>
-        </div>
+        
 
         <div>{/* missao, visao e valores */}
         

@@ -12,3 +12,8 @@ export interface ICardServico {
   title: string,
   content: string
 }
+
+export interface ICardPrincipios {
+  subtitle: string,
+  content: string
+}

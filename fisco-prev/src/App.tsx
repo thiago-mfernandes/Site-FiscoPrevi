@@ -3,6 +3,7 @@ import './index.css';
 import Servicos from './components/servicos';
 import Paralaxe from 'components/Paralaxe';
 import QuemSomos from 'components/QuemSomos';
+import Missao from 'components/Missao';
 
 
 function App() {
@@ -13,26 +14,7 @@ function App() {
       <Servicos /> 
       <Paralaxe /> 
       <QuemSomos />   
-
-      {/* Inicio do quem somos*/}
-      <section> {/* quem somos */}
-        
-
-        <div>{/* missao, visao e valores */}
-        
-          <h2>gwhat they say
-            <span>about us</span>
-          </h2>
-          <h3>testemonials from our greatest clients</h3>
-
-          <div>{/* cardPrincipios -->COMPONENTE<-- */}
-            <h2>Missao</h2>
-            <h3>subtitulo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nulla molestias eius vero, quam ullam omnis repellendus tenetur illum necessitatibus, voluptatem at ad ab cupiditate perspiciatis amet, nisi doloremque unde!</p>
-          </div>
-        </div>
-      </section>
-      {/* fim do quem somos*/}
+      <Missao />
 
       {/* Inicio do contato*/}
       <section>

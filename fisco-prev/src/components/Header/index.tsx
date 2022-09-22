@@ -5,7 +5,7 @@ import NavBar from './navBar';
 
 export default function Header() {
   return (    
-    <section className='bg-blue'>
+    <section id='home' className='bg-blue'>
       <FixedBar />
       <NavBar />
       <Landing />

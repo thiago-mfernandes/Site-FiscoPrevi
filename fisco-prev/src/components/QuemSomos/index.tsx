@@ -2,7 +2,7 @@ import teste from 'assets/slide_01.jpg';
 
 export default function QuemSomos() {
   return (
-    <section className='my-36 w-full px-6'>
+    <section id='quemSomos' className='my-36 w-full px-6'>
       <img src={teste} alt="foto quem somos" />
       <div className='w-full px-6 py-8 flex flex-wrap bg-cardServicosBg'>
         <h3 className='subtitle mb-3'>Saiba mais sobre a nossa organização!</h3>

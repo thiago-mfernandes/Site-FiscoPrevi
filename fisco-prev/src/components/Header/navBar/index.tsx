@@ -2,6 +2,7 @@ import data from 'data/nav.json';
 import { useState } from 'react';
 import { Item } from 'types';
 import MenuHamburguer from '../menuHamburguer';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default function NavBar() {
 
@@ -27,7 +28,7 @@ export default function NavBar() {
                 key={index} 
                 className='w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-azulPrimario  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500`'
               >
-                <a className='w-full text-center' href='#'>{item.title}</a>
+                <AnchorLink className='w-full text-center' href={item.href}>{item.title}</AnchorLink>
               </li>
             ))
           }

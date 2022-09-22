@@ -17,6 +17,7 @@ module.exports = {
         cinzaSubTitle: '#666',
         cinzaEscuro: '#1e1e1e',
         cardServicosBg: '#f7f7f7',
+        cinzaFooter: '#232323',
       },  
 
       fontFamily: {

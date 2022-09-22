@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className='bg-banner bg-cover bg-no-repeat w-full h-screen px-6 py-6 flex flex-col items-center justify-center pt-24'> 
+    <div className='bg-banner bg-cover bg-no-repeat w-full h-screen px-6 py-6 flex flex-col items-center justify-center pt-24 md:px-20 md:py-20'> 
       <h2 className='titleh2 text-azulTerciario'>venha falar com a gente!</h2>
       <h1 className='titleh1'>Especialistas em Serviços de Contabilidade, Fiscal e Departamento Pessoal.</h1>
       <p className='content italic'>Um escritório de contabilidade completo e especializado para a sua empresa!</p>

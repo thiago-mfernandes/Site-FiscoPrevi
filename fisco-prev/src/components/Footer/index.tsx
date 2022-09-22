@@ -40,10 +40,10 @@ export default function Footer() {
       </div>
 
       <div className='flex flex-col border-b border-neutral-700 mb-8 pb-8'>
-        <AnchorLink href="#home">Home</AnchorLink>
-        <AnchorLink href="#servicos">Servicos</AnchorLink>
-        <AnchorLink href="#quemSomos">Quem Somos</AnchorLink>
-        <AnchorLink href="#contato">Contato</AnchorLink>
+        <AnchorLink className='content text-cinzaSubTitle' href="#home">Home</AnchorLink>
+        <AnchorLink className='content text-cinzaSubTitle' href="#servicos">Servicos</AnchorLink>
+        <AnchorLink className='content text-cinzaSubTitle' href="#quemSomos">Quem Somos</AnchorLink>
+        <AnchorLink className='content text-cinzaSubTitle' href="#contato">Contato</AnchorLink>
       </div>
 
       <Form type='footer'/>

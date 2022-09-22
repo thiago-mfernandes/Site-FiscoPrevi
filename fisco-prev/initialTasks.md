@@ -13,3 +13,6 @@ Criaçao da pasta e arquivos de configuração
 - [x] Instalar o ESLINT: `npm init @eslint/config`
 - [x] Adicionar a seguinte regra no .eslintrc.json -> rules: primeira linha do objeto: "react/react-in-jsx-scope": "off"
 - [x] abrir um arquivo .editorcinfig
+
+-
+`yarn add @hookform/resolvers yup react-hook-form `

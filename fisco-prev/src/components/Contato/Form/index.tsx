@@ -6,7 +6,7 @@ import Erro from 'components/Contato/Erro';
 import { inputStyle, textAreaStyle } from './styles';
 
 interface ITypeofForm {
-  type?: string
+  type?: string,
 }
 
 const validationFormData = yup.object({
@@ -43,13 +43,13 @@ export default function Form({ type }: ITypeofForm ) {
       method='post' 
       className={ 
         type == 'footer' 
-          ? ' py-10 rounded text-center flex flex-col'
+          ? ' py-10 rounded text-center flex flex-col md:w-[80%] md:p-0'
           : 'bg-azulPrimario p-10 rounded text-center flex flex-col'
       }
       onSubmit={handleSubmit(onSubmitForm)}
     >
       {
-        type && <h3 className='titleh3 text-start mb-6'>Contate-nos</h3>
+        type && <h3 className='titleh3 text-start mb-6 md:text-center'>Contate-nos</h3>
       }
       
       <input 

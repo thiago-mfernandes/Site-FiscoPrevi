@@ -1,6 +1,6 @@
 export default function Paralaxe() {
   return (
-    <div className='bg-parallaxe bg-fixed bg-center bg-no-repeat bg-cover h-fit w-full py-40 px-6 color mt-36 flex flex-col'>
+    <div className='bg-parallaxe bg-fixed bg-center bg-no-repeat bg-cover h-fit w-full py-40 px-6 color mt-36 flex flex-col md:px-20'>
       <h2 className='titleh2 text-white mb-10'>Nosso 
         <span className='text-azulPrimario'> Diferencial</span>
       </h2>

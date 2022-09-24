@@ -4,7 +4,7 @@ export default function QuemSomos() {
   return (
     <section id='quemSomos' className='my-36 w-full px-6'>
       <img src={teste} alt="foto quem somos" />
-      <div className='w-full px-6 py-8 flex flex-wrap bg-cardServicosBg'>
+      <div className='w-full px-6 py-8 flex flex-wrap bg-cardServicosBg md:px-16'>
         <h3 className='subtitle mb-3'>Saiba mais sobre a nossa organização!</h3>
         <h2 className='titleh2 mb-9'>Quem é a
           <span className='text-azulPrimario'> FiscoPrev?</span>

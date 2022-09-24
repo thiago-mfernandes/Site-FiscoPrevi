@@ -9,7 +9,7 @@ export default function MenuHamburguer({menuMobileState, setMenuMobileState}:Men
 
   return (
     <div 
-      className='w-1/2 flex justify-end pt-4 pr-4 pb-4'
+      className='w-1/2 flex justify-end pt-4 pr-4 pb-4 lg:hidden'
       onClick={() => setMenuMobileState(!menuMobileState)}
     >
       <MdOutlineMenu className='text-white text-4xl'/>

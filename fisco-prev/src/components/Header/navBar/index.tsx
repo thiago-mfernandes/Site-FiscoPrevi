@@ -7,28 +7,49 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 export default function NavBar() {
 
   const [menuMobileState, setMenuMobileState] = useState(false);
+  const [fixedMenu, setFixedMenu] = useState(false);
+
+  function scrollPosition(){
+    scrollY > 50 
+      ? setFixedMenu(true) 
+      : setFixedMenu(false);
+  }  
+
+  console.log(fixedMenu);
+
+  window.addEventListener('scroll', scrollPosition);
 
   return (
-    <nav className='flex items-center justify-between flex-wrap w-full absolute'>
-      <a href="#" className='w-1/2 pt-4 pl-4 pb-4'>
-        <h2 className='uppercase text-white text-xl'>FiscoPrev</h2>
+    <nav 
+      className={
+        fixedMenu 
+          ? 'lg:fixed lg:flex lg:items-center lg:justify-between lg:w-full lg:top-0 lg:px-20 lg:bg-cardServicosBg lg:shadow-xl' 
+          : 'flex items-center justify-between flex-wrap w-full absolute lg:w-full lg:flex-nowrap lg:px-20'
+      }>
+      <a href="#" className='w-1/2 pt-4 pl-4 pb-4 lg:w-1/5'>
+        <h2 className='uppercase text-white text-xl lg:text-azulPrimario lg:hover:text-azulTerciario lg:transition-all lg:duration-200'>FiscoPrev</h2>
       </a>
-      <MenuHamburguer menuMobileState={menuMobileState} setMenuMobileState={setMenuMobileState}/>
+      <MenuHamburguer 
+        menuMobileState={menuMobileState} 
+        setMenuMobileState={setMenuMobileState}
+      />
       
       <div className={
         menuMobileState
           ? 'w-full absolute top-[68px] bg-slate-200 transition-all translate-y-1 ease-in-out delay-200'
-          : 'w-full opacity-0 translate-y-0 transition-all'
-      }> {/* esta div contem a lista de links*/}
-        <ul className='flex flex-col w-full justify-center'>
+          : 'w-full opacity-0 translate-y-0 transition-all lg:flex lg:w-full lg:opacity-100 '
+      }>
+        <ul className='flex flex-col w-full justify-center lg:flex-row'>
           {
             data.map((item: Item, index) => (
               <li 
                 onClick={() => setMenuMobileState(false)}
                 key={index} 
-                className='w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-azulPrimario  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500`'
+                className={fixedMenu 
+                  ? 'w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-azulPrimario  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-azulPrimario lg:transition-all lg:duration-200 lg:ease-in-out' 
+                  : 'w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-azulPrimario  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-azulTerciario lg:text-white lg:transition-all lg:duration-200 lg:ease-in-out'}
               >
-                <AnchorLink className='w-full text-center' href={item.href}>{item.title}</AnchorLink>
+                <AnchorLink className='w-full text-center lg:text-end' href={item.href}>{item.title}</AnchorLink>
               </li>
             ))
           }

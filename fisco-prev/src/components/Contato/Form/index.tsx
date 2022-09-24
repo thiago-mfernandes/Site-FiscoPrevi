@@ -43,8 +43,8 @@ export default function Form({ type }: ITypeofForm ) {
       method='post' 
       className={ 
         type == 'footer' 
-          ? ' py-10 rounded text-center flex flex-col md:w-[80%] md:p-0'
-          : 'bg-azulPrimario p-10 rounded text-center flex flex-col'
+          ? ' py-10 rounded text-center flex flex-col md:w-[80%] md:p-0 lg:w-[60%]'
+          : 'bg-azulPrimario p-10 rounded text-center flex flex-col lg:w-[50%]'
       }
       onSubmit={handleSubmit(onSubmitForm)}
     >
@@ -81,7 +81,7 @@ export default function Form({ type }: ITypeofForm ) {
         {...register('mensagem')}
         name="mensagem" 
         cols={30} 
-        rows={5} 
+        rows={2} 
         placeholder='Escreva sua mensagem..' 
       />
       {errors.mensagem && <Erro erro={`${errors.mensagem?.message}`}/>}

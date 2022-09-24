@@ -3,7 +3,7 @@ import { ICardServico } from 'types';
 export default function CardServico({icon, title, content}:ICardServico) {
   return (
     <div 
-      className='w-full h-full bg-cardServicosBg p-7 mb-8 md:w-[47.5%]'
+      className='w-full h-full bg-cardServicosBg p-7 mb-8 md:w-[47.5%] lg:w-[24%]'
     >
       <img 
         src={icon} 

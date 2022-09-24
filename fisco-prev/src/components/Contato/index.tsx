@@ -3,7 +3,7 @@ import Form from './Form';
 export default function Contato() {
 
   return (
-    <section id='contato' className='mt-36 w-full px-6 dlex flex-wrap text-center'>
+    <section id='contato' className='mt-36 w-full px-6 dlex flex-wrap text-center lg:flex lg:justify-center'>
       <h3 className='subtitle mb-3'>Você pode contar conosco para ajudá-lo</h3>
       <h2 className='titleh2 mb-9'>Preencha o
         <span className='text-azulPrimario'> Formulário</span>

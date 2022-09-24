@@ -22,7 +22,7 @@ export default function FixedBar() {
   }
 
   return (
-    <div className='hidden bg-azulPrimario h-12 w-full leading-10 px-16 flex-row justify-between'>
+    <div className='hidden lg:flex lg:bg-azulPrimario h-12 w-full leading-10 px-16 flex-row justify-between'>
       <div className='flex flex-row items-center border-solid border-brancoBorda border-x'>
         <div className='h-full flex flex-row items-center mr-4'> 
           <BsFillClockFill className='text-azulTerciario text-sm mx-2'/>

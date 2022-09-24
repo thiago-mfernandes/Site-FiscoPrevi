@@ -8,15 +8,17 @@ export default function Missao() {
       <h2 className='titleh2 mb-9 w-full md:text-center'>Missão, Visão e
         <span className='text-azulPrimario'> Valores!</span>
       </h2>
-      {
-        mvv.map((item, index) => (
-          <CardPrincipios 
-            key={index}
-            subtitle={item.subtitle} 
-            content={item.content} 
-          />
-        ))
-      }
+      <div className='lg:flex lg:flex-row lg:justify-between'>
+        {
+          mvv.map((item, index) => (
+            <CardPrincipios
+              key={index}
+              subtitle={item.subtitle}
+              content={item.content}
+            />
+          ))
+        }
+      </div>
     </section>
   );
 }

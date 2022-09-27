@@ -30,17 +30,17 @@ export default function Form({ type }: ITypeofForm ) {
   //passar para o resolver do yup o schema de validacoes e erros
   const { register, handleSubmit, formState: { errors } } = useForm({resolver: yupResolver(validationFormData)});
 
-
   async function onSubmitForm(data: object){
-    console.log(data);
+    console.log(data); 
+    console.log('email enviado?');
     
-    //limpar formulario
   }
+
   return (
     <form 
       id='contato'
-      action=""
-      method='post' 
+      action="https://formsubmit.co/fiscoprevi@fiscoprevi.com.br"
+      method="POST" 
       className={ 
         type == 'footer' 
           ? ' py-10 rounded text-center flex flex-col md:w-[80%] md:p-0 lg:w-[60%]'

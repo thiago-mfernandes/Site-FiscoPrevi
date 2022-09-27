@@ -15,8 +15,6 @@ export default function NavBar() {
       : setFixedMenu(false);
   }  
 
-  console.log(fixedMenu);
-
   window.addEventListener('scroll', scrollPosition);
 
   return (

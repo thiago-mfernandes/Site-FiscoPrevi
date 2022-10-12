@@ -11,12 +11,12 @@
   },
   {
     "title": "Imposto de Renda Pessoa Física e Jurídica",
-    "content": "O Imposto de Renda é uma das principais tributações que temos no Brasil. É um tributo federal, uma cobrança do poder público de parte da renda anual do contribuinte, seja ele pessoa física ou jurídica. A declaração sempre é feita em relação ao ano anterior e não declarar o Imposto trazer consequências. A Fisco Previ possui equipe especializada para te orientar sobre a melhor forma de declarar seus bens e ficar em dia com o Leão.",
+    "content": "O IR é uma das principais tributações que temos no Brasil. É um tributo federal, uma cobrança do poder público de parte da renda anual do contribuinte. A declaração sempre é feita em relação ao ano anterior e não declarar o Imposto trazer consequências.",
     "icon": "assets/CardServicosIcons/imposto-renda.png"
   },
   {
     "title": "Ganho de Capital",
-    "content": "anho de capital é todo e qualquer lucro obtido na venda de casas, apartamentos e imóveis em geral, além de carros, caminhões, outros móveis e ações financeiras. Para te ajudar a entender melhor e calcular o ganho de capital para fins de declaração ao fisco, a Fisco Previ tem profissionais especializados na área.",
+    "content": "É todo e qualquer lucro obtido na venda de casas, apartamentos e imóveis em geral, além de carros, caminhões, outros móveis e ações financeiras. Para te ajudar a entender melhor e calcular o ganho de capital para fins de declaração ao fisco, a Fisco Previ tem profissionais especializados na área.",
     "icon": "assets/CardServicosIcons/ganho-capital.png"
   },
   {
@@ -26,17 +26,17 @@
   },
   {
     "title": "Assessoria Tributária Consultoria Contábil",
-    "content": " legislação fiscal e tributária do Brasil é uma das mais complexas do mundo, o que nos leva a uma alta carga tributária. A Fisco Previ, há anos atendendo clientes com portes, atividades e regimes tributários diversos, adquiriu o know-how necessário para planejar a inteligência fiscal das empresas e buscar alternativas legais para redução de carga tributária, garantindo o sucesso dos negócios de nossos clientes.",
+    "content": "Legislação fiscal e tributária do Brasil é uma das mais complexas do mundo, o que nos leva a uma alta carga tributária. A Fisco Previ possui o know-how necessário para planejar a inteligência fiscal das empresas e buscar alternativas legais para redução de carga tributária, garantindo o sucesso dos negócios de nossos clientes.",
     "icon": "assets/CardServicosIcons/assessoria-tributaria.png"
   },
   {
     "title": "Assessoria e Consultoria de Departamento Pessoal",
-    "content": "m serviço que visa identificar as necessidades de uma empresa e tem como principal objetivo a boa gestão dos colaboradores. O gerenciamento assertivo de colaboradores é fundamental para o sucesso de qualquer negócio, uma vez que eles são um dos principais ativos de uma empresa. A Fisco Previ atua em toda a parte burocrática, especialmente no que tange a otimização dos processos de pagamentos, tais como gestão de holerites e benefícios.",
+    "content": "O gerenciamento assertivo de colaboradores é fundamental para o sucesso de qualquer negócio, uma vez que eles são um dos principais ativos de uma empresa. A Fisco Previ atua em toda a parte burocrática, especialmente no que tange a otimização dos processos de pagamentos, tais como gestão de holerites e benefícios.",
     "icon": "assets/CardServicosIcons/departamento-pessoal.png"
   },
   {
     "title": "Folhas de pagamento de MEI, Domésticas, CEI, CNPJ em geral",
-    "content": "A folha de pagamento é um documento que reúne informações de empregado e empresa, indica todos os valores de remuneração, impostos, descontos e bonificações dos trabalhadores. A Fisco Previ tem profissionais especializados que executam esse serviço com excelência, assegurando assim que os colaboradores tenham a sua remuneração recebida corretamente.",
+    "content": "A folha de pagamento é um documento que reúne informações de empregado e empresa, indica todos os valores de remuneração, impostos, descontos e bonificações dos trabalhadores. Somos especializados que executam esse serviço com excelência, assegurando assim que os colaboradores tenham a sua remuneração recebida corretamente.",
     "icon": "assets/CardServicosIcons/folha-pagamento.png"
   }
 ]

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Item } from 'types';
 import MenuHamburguer from '../menuHamburguer';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import logo from '../../../assets/logo.png';
 
 export default function NavBar() {
 
@@ -21,11 +22,11 @@ export default function NavBar() {
     <nav 
       className={
         fixedMenu 
-          ? 'lg:fixed lg:flex lg:items-center lg:justify-between lg:w-full lg:top-0 lg:px-20 lg:bg-cardServicosBg lg:shadow-xl' 
-          : 'flex items-center justify-between flex-wrap w-full absolute lg:w-full lg:flex-nowrap lg:px-20'
+          ? 'lg:fixed lg:flex lg:items-center lg:justify-between lg:w-full lg:top-0 lg:px-20 lg:bg-navBg lg:shadow-xl z-50' 
+          : 'flex items-center justify-between flex-wrap w-full absolute lg:w-full lg:flex-nowrap lg:px-20 z-50'
       }>
       <a href="#" className='w-1/2 pt-4 pl-4 pb-4 lg:w-1/5'>
-        <h2 className='uppercase text-white text-xl lg:text-azulPrimario lg:hover:text-azulTerciario lg:transition-all lg:duration-200'>FiscoPrev</h2>
+        <img src={logo} alt="Logotipo FiscoPrev" />
       </a>
       <MenuHamburguer 
         menuMobileState={menuMobileState} 
@@ -44,8 +45,8 @@ export default function NavBar() {
                 onClick={() => setMenuMobileState(false)}
                 key={index} 
                 className={fixedMenu 
-                  ? 'w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-azulPrimario  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-azulPrimario lg:transition-all lg:duration-200 lg:ease-in-out' 
-                  : 'w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-azulPrimario  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-azulTerciario lg:text-white lg:transition-all lg:duration-200 lg:ease-in-out'}
+                  ? 'w-full h-12 text-center p-3 text-white flex justify-center opacity-70 hover:text-cinzaSubTitle  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-cinzaSubTitle lg:transition-all lg:duration-200 lg:ease-in-out' 
+                  : 'w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-cinzaSubTitle  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-cinzaSubTitle lg:text-white lg:transition-all lg:duration-200 lg:ease-in-out'}
               >
                 <AnchorLink className='w-full text-center lg:text-end' href={item.href}>{item.title}</AnchorLink>
               </li>

@@ -18,6 +18,7 @@ module.exports = {
         cinzaEscuro: '#1e1e1e',
         cardServicosBg: '#f7f7f7',
         cinzaFooter: '#232323',
+        navBg: '#074c8a',
       },  
 
       fontFamily: {
@@ -26,8 +27,8 @@ module.exports = {
       },
 
       backgroundImage: {
-        banner: 'url("../public/slide_01.jpg")',
-        parallaxe: 'url("../public/slide_01.jpg")',
+        banner1: 'url("../public/banner1.jpg")',
+        parallaxe: 'url("../public/banner2.jpg")',
       },
     },
   },

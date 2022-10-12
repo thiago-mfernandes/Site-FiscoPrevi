@@ -1,10 +1,10 @@
-import teste from 'assets/slide_01.jpg';
+import teste from 'assets/banner2.jpg';
 
 export default function QuemSomos() {
   return (
-    <section id='quemSomos' className='my-36 w-full px-6 lg:flex lg:flex-row'>
-      <img src={teste} alt="foto quem somos" className='lg:w-1/2 lg:bg-contain bg-center bg-no-repeat bg:overflow-hidden'/>
-      <div className='w-full px-6 py-8 flex flex-wrap bg-cardServicosBg md:px-16 lg:w-1/2'>
+    <section id='quemSomos' className='my-36 w-full px-6 lg:flex lg:flex-row lg:relative z-0'>
+      <img src={teste} alt="foto quem somos" className='lg:w-full lg:h-full lg:bg-cover bg-no-repeat bg:overflow-hidden '/>
+      <div className='w-full px-6 py-8 flex flex-wrap bg-cardServicosBg md:px-16 lg:w-1/2 lg:absolute top-0 right-0 z-10'>
         <h3 className='subtitle mb-3'>Saiba mais sobre a nossa organização!</h3>
         <h2 className='titleh2 mb-9'>Quem é a
           <span className='text-azulPrimario'> FiscoPrev?</span>

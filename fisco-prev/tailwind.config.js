@@ -27,6 +27,7 @@ module.exports = {
       },
 
       backgroundImage: {
+        bannerTopo: 'url("../public/banner-topo.jpg")',
         banner1: 'url("../public/banner1.jpg")',
         parallaxe: 'url("../public/banner2.jpg")',
       },

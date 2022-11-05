@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Item } from 'types';
 import MenuHamburguer from '../menuHamburguer';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import logo from '../../../assets/logo.png';
+import logo from '../../../assets/logo-azul.png';
 
 export default function NavBar() {
 

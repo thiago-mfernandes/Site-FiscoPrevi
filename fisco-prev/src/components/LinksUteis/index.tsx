@@ -1,5 +1,3 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-
 export function LinksUteis() {
   return (
     <section id='linksUteis' className='flex flex-col justify-center px-6 md:px-20 md:py-10 bg-[#00007e]'>

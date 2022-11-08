@@ -6,6 +6,7 @@ import QuemSomos from 'components/QuemSomos';
 import Missao from 'components/Missao';
 import Contato from 'components/Contato';
 import Footer from 'components/Footer';
+import { LinksUteis } from 'components/LinksUteis';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Paralaxe /> 
       <QuemSomos />   
       <Missao />
+      <LinksUteis />
       <Contato />
       <Footer />
     </main>

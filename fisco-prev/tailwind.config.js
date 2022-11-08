@@ -19,6 +19,7 @@ module.exports = {
         cardServicosBg: '#f7f7f7',
         cinzaFooter: '#232323',
         navBg: '#074c8a',
+        azulFooter: '#12124e'
       },  
 
       fontFamily: {

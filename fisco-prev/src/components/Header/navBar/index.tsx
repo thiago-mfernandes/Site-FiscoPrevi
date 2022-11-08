@@ -46,7 +46,7 @@ export default function NavBar() {
                 key={index} 
                 className={fixedMenu 
                   ? 'w-full h-12 text-center p-3 text-white flex justify-center opacity-70 hover:text-cinzaSubTitle  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-cinzaSubTitle lg:transition-all lg:duration-200 lg:ease-in-out' 
-                  : 'w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-cinzaSubTitle  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-cinzaSubTitle lg:text-white lg:transition-all lg:duration-200 lg:ease-in-out'}
+                  : 'w-full h-12 text-center p-3 text-azulPrimario flex justify-center opacity-70 hover:text-cinzaSubTitle  duration-300 ease-in-out border-b border-slate-300 last-of-type:border-none `transition={height} ease-in-out delay-500` lg:border-none lg:hover:border-b lg:hover:border-cinzaSubTitle lg:text-azulPrimario lg:transition-all lg:duration-200 lg:ease-in-out'}
               >
                 <AnchorLink className='w-full text-center lg:text-end' href={item.href}>{item.title}</AnchorLink>
               </li>

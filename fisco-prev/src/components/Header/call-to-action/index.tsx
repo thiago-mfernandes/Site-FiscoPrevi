@@ -15,7 +15,7 @@ export default function CallToAction() {
         href='https://wa.me/551934345600'
         target='_blank' 
         rel='noreferrer' 
-        className='bg-white w-1/4 flex justify-center items-center h-10 border-none rounded-lg text-azulPrimario shadow-md hover:shadow-2xl transition-all ease-in-out delay-200'
+        className='bg-white md:w-1/4 flex justify-center items-center h-10 border-none rounded-lg text-azulPrimario shadow-md hover:shadow-2xl transition-all ease-in-out delay-200'
       >
         Fale conosco
       </a>

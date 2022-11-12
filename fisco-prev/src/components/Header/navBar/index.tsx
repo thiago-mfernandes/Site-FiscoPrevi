@@ -3,7 +3,8 @@ import { useState } from 'react';
 import { Item } from 'types';
 import MenuHamburguer from '../menuHamburguer';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import logo from '../../../assets/logo-azul.png';
+import logoAzul from '../../../assets/logo-azul.png';
+import logoBranco from '../../../assets/logo-branco.png';
 
 export default function NavBar() {
 
@@ -26,7 +27,7 @@ export default function NavBar() {
           : 'flex items-center justify-between flex-wrap w-full absolute lg:w-full lg:flex-nowrap lg:px-20 z-50'
       }>
       <a href="#" className='w-1/2 pt-4 pl-4 pb-4 lg:w-1/5'>
-        <img src={logo} alt="Logotipo FiscoPrev" />
+        <img src={scrollY > 50 ? logoBranco : logoAzul} alt="Logotipo FiscoPrev" />
       </a>
       <MenuHamburguer 
         menuMobileState={menuMobileState} 

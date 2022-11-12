@@ -8,16 +8,12 @@ export default function FixedBar() {
     switch (iconName) {
     case 'facebook':
       return <BsFacebook className='text-branco text-xl'/>;
-      break;
     case 'instagram':
       return <BsInstagram className='text-branco text-xl'/>;
-      break;
     case 'whatsapp':
       return <BsWhatsapp className='text-branco text-xl'/>;
-      break;    
     default:
       return <BiLoader className='text-branco text-xl'/>;
-      break;
     }
   }
 

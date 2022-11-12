@@ -20,7 +20,7 @@ export default function Servicos() {
             />
           ))
         }
-        <button className='button bg-[#00007e] text-white mx-auto md:w-1/5'>
+        <button className='button bg-[#00007e] text-white mx-auto md:w-1/2'>
           <AnchorLink href="#contato">Solicite um Orçamento</AnchorLink>
         </button>   
       </div> 

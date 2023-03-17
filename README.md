@@ -68,13 +68,13 @@ Como ficou o layout da aplicação:
 
 <p align="center">
 
-  <img alt="Imagem da pagina home" src="./fisco-prev/src/assets/desktop-home.jpg" width="400px">
+  <img alt="Imagem da pagina home" src="./fisco-prev/src/assets/desktop-home.jpg" width="300px">
 
-  <img alt="Imagem da pagina de filtro de produtos" src="./fisco-prev/src/assets/desktop-quem-somos.jpg" width="400px">
+  <img alt="Imagem da pagina de filtro de produtos" src="./fisco-prev/src/assets/desktop-quem-somos.jpg" width="300px">
 
-  <img alt="Imagem da pagina de produtos" src="./fisco-prev/src/assets/desktop-servicos.jpg" width="400px">
+  <img alt="Imagem da pagina de produtos" src="./fisco-prev/src/assets/desktop-servicos.jpg" width="300px">
   
-  <img alt="Imagem da pagina de contato" src="./fisco-prev/src/assets/desktop-contato.jpg" width="400px">
+  <img alt="Imagem da pagina de contato" src="./fisco-prev/src/assets/desktop-contato.jpg" width="300px">
 </p>
 
 ---

@@ -31,7 +31,7 @@ Site institucional desenvolvido a pedido do cliente com a intenção de posicion
 
 ---
 
-## ⚙️ Funcionalidades
+## ⚙ Funcionalidades
 
 - [x] Nossos Serviços
 - [x] Saiba Mais
